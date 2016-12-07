@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="Quiz_CSS_Version.css" type="text/css" rel="stylesheet">
+  <title>.:: Quizumi | @Hacktiv8 ::.</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="logo1.png">
+  </div>
+  <br/>
+  <div id="content" class="body">
+    <h1>.:: Quizumi ::.</h1>
+
+    <p>
+      Welcome to the Hacktiv8 Academic Quiz. <br/>
+      Keep calm and answer the questions.
+    </p>
+
+    <form name="myForm" id="myForm" onsubmit="return false">
+      Nama :
+      <input type="text" name="fname" id="fname" placeholder="Contoh: Isumi Karina"><br/><br/>
+      <label for="selectBatch"> Batch :
+      <select id="selectBatch" name="selectBatch">
+        <option value="Arctic Fox">1. Arctic Fox</option>
+        <option value="Branford Fox">2. Branford Fox</option>
+        <option value="Cross Fox">3. Cross Fox</option>
+        <option value="Darwin Fox">4. Darwin Fox</option>
+      </select>
+      </label>
+    </form>
+    <br/>
+
+    <p id="container">
+
+    </p>
+
+    <button type="button" class="button2 button1" onclick="quiz()">
+      Take Quiz!
+    </button>
+
+  </div>
+
+  <div class="footer">
+    <br/>
+    <img src="logo2.png">
+  </div>
+
+  <script src="Quiz_JS_Version.js"></script>
+</body>
+
+<footer>
+  <p class="version">
+    by &copy; isumizumi
+  </p>
+</footer>
+
+</html>
